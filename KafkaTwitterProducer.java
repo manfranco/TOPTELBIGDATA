@@ -15,7 +15,7 @@ public class KafkaTwitterProducer {
       
       if(args.length < 5){
          System.out.println(
-            "Pene");
+            "Argumentos");
          return;
       }
       
