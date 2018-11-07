@@ -1,11 +1,11 @@
 # TOPTELBIGDATA
 Proyecto Tópicos de telemática Big data
 
-##Prerequisites:
+## Prerequisites:
 * Scala 2.11^
 * Java 7^
 
-##Installation:
+## Installation:
 
 * Clone project repository
 ```
@@ -27,10 +27,10 @@ tar xvf spark-1.6.3-bin-hadoop2.6.tgz
 ```
 javac -cp ".:./lib/*" KafkaTwitterProducer.java
 ```
-##Compile Spark program
+* Compile Spark program
 sbt package
 
-How to run:
+## How to run:
 
 
 * Start the ZooKeper server
